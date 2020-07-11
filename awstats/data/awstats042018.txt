@@ -1,0 +1,738 @@
+AWSTATS DATA FILE 7.4 (build 20150714)
+# If you remove this file, all statistics for date 201804 will be lost/reset.
+# Last config file used to build this data file was ./awstats.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 1971                
+POS_TIME 2649                
+POS_VISITOR 13387               
+POS_DAY 22452               
+POS_DOMAIN 3467                
+POS_LOGIN 4102                
+POS_ROBOT 4257                
+POS_WORMS 4923                
+POS_EMAILSENDER 5054                
+POS_EMAILRECEIVER 5197                
+POS_SESSION 23020               
+POS_SIDER 23217               
+POS_FILETYPES 5332                
+POS_DOWNLOADS 5435                
+POS_OS 5483                
+POS_BROWSER 5784                
+POS_SCREENSIZE 7679                
+POS_UNKNOWNREFERER 7753                
+POS_UNKNOWNREFERERBROWSER 7996                
+POS_ORIGIN 8234                
+POS_SEREFERRALS 8376                
+POS_PAGEREFS 8546                
+POS_SEARCHWORDS 9796                
+POS_KEYWORDS 9962                
+POS_MISC 2313                
+POS_ERRORS 10035               
+POS_CLUSTER 3958                
+POS_SIDER_404 10127               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180501000959 94 18122 9860349413228
+FirstTime 20180404005226
+LastTime 20180430235602
+LastUpdate 20180501062824 94 0 93 0 0
+TotalVisits 383                 
+TotalUnique 230                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 230                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+TotalMisc 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+RealPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 30 30 613615 32 76 491504
+1 12 12 293353 36 71 491115
+2 11 11 266689 34 71 464448
+3 25 25 480295 187 228 604120
+4 18 18 346877 205 237 685260
+5 22 22 373688 27 64 357352
+6 28 28 533672 35 68 410717
+7 24 24 506861 18 59 329803
+8 28 28 560287 36 75 517968
+9 30 30 533770 27 68 516037
+10 25 25 400450 32 66 410490
+11 29 29 533721 35 77 439039
+12 32 32 613713 31 72 490656
+13 27 27 533623 39 79 519049
+14 49 49 960541 45 91 679438
+15 44 44 933681 41 83 519896
+16 26 26 560189 42 80 651107
+17 32 32 640328 39 83 599016
+18 14 14 186991 38 73 517584
+19 23 23 480197 28 68 516464
+20 24 24 480246 78 120 714561
+21 22 22 426918 29 67 490024
+22 21 21 373639 25 67 410440
+23 21 21 426869 27 64 436267
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 30
+ru 285 285 5629730
+ua 103 103 1735022
+us 83 83 1973577
+de 32 32 613713
+fr 17 17 346828
+gb 14 14 293451
+nl 11 11 160229
+hr 10 10 133565
+lv 6 6 80139
+pl 6 6 159984
+ee 1 1 26664
+al 4 4 53426
+cn 1 1 26664
+th 4 4 80041
+kz 4 4 80041
+jp 2 2 26713
+hk 1 1 26664
+zz 2 2 26713
+pt 1 1 26664
+se 1 1 26664
+co 1 1 26664
+ip 3 3 79992
+dk 3 3 53377
+ro 2 2 53328
+lt 4 4 53426
+by 5 5 106705
+cz 2 2 26713
+md 4 4 53426
+ca 1 1 26664
+ch 4 4 53426
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 15
+yandex 374 9972336 20180430225723 0
+googlebot 17 453288 20180429141900 0
+favicon 11 293304 20180430004913 0
+mj12bot 10 266640 20180428054500 0
+python 8 213312 20180427173955 0
+no_user_agent 6 159984 20180428081954 0
+wget 4 106656 20180427140441 0
+bot[\s_+:,\.\;\/\\-] 4 106656 20180425165341 0
+baiduspider 4 106656 20180426005634 0
+crawl 2 53328 20180415235959 0
+bingbot 1 26664 20180413072146 0
+exabot 1 26664 20180423191648 0
+mail\.ru 2 53328 20180428143420 0
+curl 1 26664 20180430021417 0
+^mozilla\/5\.0$ 2 53328 20180429215045 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 2
+php 165 8085 0 0
+html 452 12052128 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 18
+win7 216 216
+linuxubuntu 6 6
+win10 112 112
+winnt 70 70
+winxp 82 82
+win8 6 6
+win8.1 26 26
+winlong 24 24
+win2000 8 8
+macosx7 2 2
+win2003 1 1
+ios_iphone 3 3
+macosx 18 18
+macosx11 1 1
+Unknown 23 23
+linuxandroid 3 3
+linux 14 14
+macosx6 2 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 95
+opera47.0.2631.55 1 1
+chrome16.0.912.63 3 3
+firefox47.0 1 1
+firefox3.6.8 4 4
+chrome11.0.696.68 2 2
+chrome14.0.835.187 1 1
+chrome40.0.2214.85 1 1
+firefox43.0 14 14
+chrome12.0.742.91 1 1
+chrome10.0.648.133 1 1
+firefox3.6.11 2 2
+chrome51.0.2704.103 1 1
+firefox4.0 2 2
+msie6.0 20 20
+firefox52.0 9 9
+chrome13.0.800.1 1 1
+firefox3.6.7 1 1
+opera49.0.2725.47 34 34
+firefox34.1 9 9
+firefox3.5.6 1 1
+firefox44.1 4 4
+firefox7.0.1 2 2
+msie8.0 11 11
+firefox41.0 11 11
+msie9.0 4 4
+chrome14.0.835.202 1 1
+Unknown 23 23
+firefox32.1 10 10
+firefox33.1 11 11
+firefox33.0 4 4
+chrome56.0.2924.87 2 2
+chrome58.0.3029.110 10 10
+firefox42.0 3 3
+chrome57.0.2987.137 2 2
+chrome55.0.2883.87 4 4
+safari11.0 1 1
+safari5.1 4 4
+firefox56.0 4 4
+chrome42.0.2311.135 3 3
+chrome12.0.742.112 2 2
+opera8.01 2 2
+firefox35.0 11 11
+chrome63.0.3223.8 5 5
+chrome62.0.3250.0 3 3
+firefox31.0 13 13
+firefox18.0 1 1
+firefox53.0 7 7
+chrome26.0.1410.63 1 1
+firefox39.1 2 2
+firefox48.0 1 1
+firefox44.0 6 6
+chrome50.0.2661.102 3 3
+msie10.0 1 1
+firefox51.0 5 5
+firefox37.0 7 7
+chrome41.0.2272.118 2 2
+chrome37.0.2062.103 1 1
+chrome34.0.1847.116 1 1
+chrome50.0.2661.94 1 1
+firefox21.0 18 18
+opera52.0.2871.64 1 1
+opera52.0.2871.40 2 2
+chrome25.0.1364.152 1 1
+chrome49.0.2623.112 9 9
+firefox38.0 15 15
+chrome5.0.375.99 1 1
+firefox40.1 11 11
+firefox40.0 4 4
+firefox3.6.13 2 2
+chrome31.0.1650.57 2 2
+firefox59.0 1 1
+chrome15.0.874.121 1 1
+safari11.0.1 1 1
+msie7.0 15 15
+chrome34.0.1847.132 9 9
+chrome63.0.3239.84 22 22
+firefox27.0 1 1
+chrome52.0.2743.116 3 3
+firefox57.0 18 18
+chrome41.0.2228.0 1 1
+chrome65.0.3325.181 26 26
+firefox45.0 5 5
+firefox3.6.18 1 1
+firefox36.0 5 5
+firefox17.0 5 5
+firefox30.0 9 9
+chrome10.0.648.151 1 1
+firefox34.0 4 4
+chrome62.0.3202.62 2 2
+firefox24.0 24 24
+chrome65.0.3325.109 2 2
+firefox43.1 9 9
+chrome62.0.3202.94 45 45
+chrome61.0.3163.100 42 42
+chrome9.0.597.94 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Other 20180423010812
+Go-http-client/1.1 20180425213717
+Riddler_(http://riddler.io/about) 20180427091828
+WhatsApp/0.2.8691_N 20180424160930
+\ 20180429162422
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+Other 20180423010812
+Go-http-client/1.1 20180425213717
+Riddler_(http://riddler.io/about) 20180427091828
+\ 20180429162422
+WhatsApp/0.2.8691_N 20180424160930
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 168 168
+From1 3 3
+From2 33 33
+From3 56 56
+From4 357 357
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+yandex 16 16
+google 17 17
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 26
+http://maps.2gis.ru 24 24
+http://bit.ly/2HzzEPQ 6 6
+http://link.2gis.ru/22B0B17D/grym/20180301/nabchelny/e807d000026ae 2 2
+https://mmvstroy.ru 2 2
+http://girls-and-tits.adultnet.in 1 1
+http://gay.vids.hotblog.top 1 1
+http://world.porn.blogporn.in 1 1
+http://strapon.xblog.in 1 1
+http://parsinfo.ru 1 1
+http://chelny.spravker.ru/otsenochnye-kompanii/ 1 1
+http://stacie.go.telrock.net 1 1
+http://emily.web1.telrock.net 1 1
+http://interracial.dating.xblog.in 1 1
+http://link.2gis.ru/38DA7086/grym/20180401/nabchelny/e807d000026ae 1 1
+http://vera.forum.telrock.net 1 1
+http://ada.projects.telrock.org 1 1
+http://destiny.top10bestsellers.ru 1 1
+http://impulse-networks.com/topic/3694-mujeres-desnudas-caalientes-bellas-vaginas-impulse-networkscom/ 1 1
+http://show-online.tv/1335-holostyak-8-sezon-2018-ukraina-stb.html 1 1
+http://stripperluv.adultnet.in 1 1
+http://retro-queens.sexblog.top 1 1
+http://mistress.xblog.in 1 1
+http://leola.go.telrock.net 1 1
+http://darren.w.telrock.org 1 1
+http://animeshemale.net.erolove.in 1 1
+http://link.2gis.ru/7BB8C830/v4-android/20180301/nabchelny/4081915443293789 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+parsinfo.ru 6
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 1
+parsinfo.ru 6
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 1617 343547
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 61
+/administrator/components/com_maianmedia/utilities/charts/php-ofc-library/ofc_upload_image.php 1 -
+/administrator/components/com_jinc/classes/graphics/tmp-upload-images/izoc.php 1 -
+/administrator/components/com_redmystic/chart/ofc-library/ofc_upload_image.php 1 -
+/error.php 1 -
+/bitrix/admin/ 1 http://AKTIV-O.RU/bitrix/admin/
+/ads.txt 1 -
+/prajs-list 2 -
+/connectors/resource/index.php 1 -
+/components/com_facileforms/libraries/jquery/RxR__choqp.php 1 -
+/admin/index.php 1 -
+/sitemap.xml 1 -
+/smiley/1.gif 1 -
+/administrator/components/com_jnewsletter/includes/openflashchart/tmp-upload-images/izoc.php 1 -
+/modules/mod_simplefileuploadv1.3/elements/RxR__choqp.php 1 -
+/XxX.php 1 -
+/administrator/components/com_jinc/classes/graphics/php-ofc-library/ofc_upload_image.php 1 -
+/wp-login.php 3 -
+/xx.php.xxxjpg 1 -
+/administrator/components/com_extplorer/uploadhandler.php 1 -
+/XH9AWZ7Eybkkow6vGSG 1 -
+/typo3/index.php 1 -
+/update.php 1 -
+/administrator/components/com_rokdownloads/assets/uploadhandler.php 1 -
+/administrator/components/com_jnews/includes/openflashchart/tmp-upload-images/izoc.php 1 -
+/administrator/components/com_bt_portfolio/RxR__choqp.php 1 -
+/components/com_jbcatalog/libraries/jsupload/server/php/files/RxR__choqp.php 1 -
+/administrator/components/com_civicrm/civicrm/packages/OpenFlashChart/php-ofc-library/ofc_upload_image.php 1 -
+/images/jdownloads/screenshots/bot.php3.g 1 -
+/administrator/components/com_civicrm/civicrm/packages/OpenFlashChart/tmp-upload-images/izoc.php 1 -
+/administrator/components/com_jnews/includes/openflashchart/php-ofc-library/ofc_upload_image.php 1 -
+/logo_img.php 1 -
+/administrator/components/com_acymailing/inc/openflash/tmp-upload-images/izoc.php 1 -
+/jwallpapers_files/plupload/RxR__choqp.php 1 -
+/com_sexycontactform/fileupload/files/RxR__choqp.php 1 -
+/tmp/plupload/RxR.php 1 -
+/modules/mod_socialpinboard_menu/images/socialpinboard/temp/RxR__choqp.php 1 -
+/rss.xml 1 -
+/user/password 2 -
+/bitrix/ 1 -
+/admin.php 1 -
+/components/com_jbcatalog/libraries/jsupload/server/php/ 1 -
+/boombeachhacks.php 656 -
+/administrator/components/com_bt_portfolio/helpers/uploadify/uploadify.php 1 -
+/modules/mod_simplefileuploadv1.3/elements/udd.php 1 -
+/administrator/components/com_jnewsletter/includes/openflashchart/php-ofc-library/ofc_upload_image.php 1 -
+/robots.txt 895 -
+/administrator/components/com_maianmedia/utilities/charts/tmp-upload-images/izoc.php 1 -
+//wp-login.php 1 -
+/images/stories/xx.php.xxxjpg 2 -
+/0yd4ul0FzXpeHMK 1 -
+/a 1 -
+/user/login 1 http://AKTIV-O.RU/user/login
+/administrator/index.php 1 -
+/uslugi/mashinnoe-oborudovanie 1 -
+/favicon.png 1 -
+/sitemap.xml.php 1 -
+/.well-known/assetlinks.json 3 -
+/com_sexycontactform/fileupload/index.php 1 -
+/administrator/components/com_acymailing/inc/openflash/php-ofc-library/ofc_upload_image.php 1 -
+/administrator/components/com_redmystic/chart/tmp-upload-images/izo.php 1 -
+/modules/mod_socialpinboard_menu/saveimagefromupload.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 230
+46.161.9.39 26 26 506959 20180430235602
+79.110.17.2 18 18 240417 20180427220737
+46.161.9.30 16 16 213704 20180415200419
+91.200.80.2 16 16 213704 20180427161635
+91.200.12.7 12 12 213508 20180412151513
+46.161.9.68 12 12 213508 20180428230831
+46.161.9.18 12 12 213508 20180428185731
+95.181.217.2 12 12 160278 20180428104518
+91.200.12.63 12 12 240123 20180413170625
+208.80.194.30 11 11 293304 20180429022749
+95.79.30.13 1 1 26664 20180412204444
+185.158.115.13 1 1 26664 20180427163151
+176.14.89.246 1 1 26664 20180429134306
+5.166.220.197 3 3 53377 20180413153115
+188.163.109.153 2 2 26713 20180424220833
+86.110.117.217 2 2 98 20180422151151
+46.38.51.218 1 1 49 20180423124750
+178.159.37.118 2 2 26713 20180413042410
+54.67.59.131 5 5 133320 20180428124212
+95.25.83.43 1 1 26664 20180421213649
+91.107.98.237 2 2 53328 20180413074041
+176.99.72.79 2 2 53328 20180429134202
+87.251.176.20 1 1 26664 20180423010812
+95.78.103.114 9 9 239976 20180427043710
+176.36.21.189 2 2 53328 20180424025657
+213.183.56.225 2 2 26713 20180426192345
+95.37.205.51 2 2 26713 20180411055253
+62.113.232.73 1 1 49 20180416180324
+218.102.137.69 1 1 26664 20180414014242
+208.80.194.28 3 3 79992 20180429085813
+109.184.14.158 2 2 26713 20180416045424
+5.9.158.75 2 2 26713 20180413085757
+5.164.121.167 1 1 26664 20180423134729
+185.220.101.44 2 2 26713 20180428232108
+194.186.207.115 2 2 53328 20180427042217
+176.14.9.250 1 1 26664 20180411031737
+213.251.184.63 1 1 26664 20180411131310
+31.23.207.247 1 1 26664 20180430150931
+94.198.0.41 1 1 26664 20180427150204
+91.102.153.90 2 2 98 20180416114857
+178.137.80.124 2 2 26713 20180428081157
+37.1.137.99 4 4 53426 20180430113231
+185.180.231.115 1 1 26664 20180425080633
+85.26.186.219 1 1 26664 20180428161858
+77.247.181.162 3 3 26762 20180424155616
+94.242.62.132 2 2 26713 20180411105818
+45.127.98.123 2 2 26713 20180425112110
+80.82.221.245 1 1 26664 20180415000837
+91.200.29.122 1 1 26664 20180425222952
+62.210.152.248 1 1 26664 20180413044655
+178.175.142.131 4 4 53426 20180422002416
+185.8.107.159 2 2 26713 20180430141248
+178.76.202.254 2 2 53328 20180413162458
+85.10.51.86 10 10 133565 20180415110422
+199.247.12.116 1 1 26664 20180415023339
+216.218.222.12 2 2 26713 20180412074602
+163.172.4.153 3 3 79992 20180430023356
+185.36.102.114 2 2 26713 20180429181018
+188.32.247.248 1 1 26664 20180427132317
+103.20.205.197 3 3 53377 20180426122528
+109.248.222.110 1 1 26664 20180416201604
+208.80.194.35 1 1 26664 20180421133225
+178.205.62.208 1 1 26664 20180413204251
+178.187.111.27 3 3 53377 20180415144319
+95.37.96.179 4 4 53426 20180428093113
+93.188.37.229 1 1 26664 20180421164751
+178.72.68.136 2 2 53328 20180411172807
+54.201.11.168 1 1 26664 20180415194251
+176.15.52.181 1 1 26664 20180423105319
+176.222.131.31 3 3 53377 20180411063030
+178.205.231.16 2 2 53328 20180413012750
+188.230.21.78 1 1 26664 20180416163203
+178.33.66.252 4 4 53426 20180425184943
+188.162.132.52 2 2 26713 20180412091510
+31.13.133.145 2 2 53328 20180413221450
+174.75.238.76 1 1 26664 20180412003917
+78.30.251.164 1 1 26664 20180414202502
+37.23.100.55 1 1 26664 20180413220923
+34.212.65.157 1 1 26664 20180413090544
+141.101.128.133 6 6 80139 20180416213334
+89.248.112.178 1 1 26664 20180416085643
+46.188.88.171 1 1 26664 20180425041544
+67.205.146.164 1 1 49 20180411054946
+2001:6d0:ffc8:a0e9:: 2 2 53328 20180429162422
+77.45.202.207 1 1 26664 20180416002541
+94.41.235.234 2 2 26713 20180411115105
+95.105.31.31 2 2 26713 20180412213618
+93.189.41.178 2 2 98 20180426102519
+5.164.230.189 3 3 53377 20180411143138
+188.243.207.150 4 4 80041 20180421155045
+46.4.94.226 8 8 213312 20180425152649
+178.162.211.175 1 1 26664 20180412142917
+198.98.61.36 2 2 26713 20180414222943
+185.220.101.26 2 2 26713 20180428133008
+93.189.43.213 3 3 147 20180425133838
+209.90.225.218 3 3 53377 20180415114251
+92.222.233.4 1 1 26664 20180424204258
+91.238.74.15 3 3 53377 20180413083130
+89.64.39.95 4 4 106656 20180412233805
+217.69.143.217 1 1 26664 20180422132138
+2001:41d0:a:47ec:: 1 1 26664 20180415082331
+178.137.163.222 2 2 26713 20180428004212
+103.200.29.60 2 2 26713 20180425023145
+176.48.62.19 2 2 26713 20180430172409
+146.185.223.245 2 2 26713 20180417045924
+208.80.194.31 6 6 159984 20180426051151
+46.242.8.190 3 3 53377 20180423205443
+188.19.48.23 2 2 53328 20180411095834
+91.144.156.238 4 4 106656 20180430121134
+193.169.52.39 9 9 239976 20180430071153
+95.213.217.187 1 1 49 20180411112919
+178.207.138.217 1 1 26664 20180424205322
+46.38.51.209 1 1 49 20180413144027
+64.113.32.29 1 1 26664 20180416002044
+51.15.86.162 2 2 26713 20180413211943
+191.101.87.107 1 1 26664 20180426143919
+185.224.251.100 1 1 49 20180426191703
+31.132.176.131 1 1 26664 20180421164111
+159.148.46.240 6 6 80139 20180425002242
+178.159.37.11 1 1 26664 20180413034507
+208.80.194.29 9 9 239976 20180427150717
+188.191.237.95 2 2 26713 20180414084541
+217.118.93.131 1 1 26664 20180424160945
+5.3.153.193 1 1 26664 20180427212059
+77.79.128.77 2 2 53328 20180413193034
+94.181.180.135 1 1 26664 20180425105453
+178.159.37.55 2 2 26713 20180429204128
+89.64.40.69 1 1 26664 20180423003325
+88.200.215.229 2 2 53328 20180414165021
+178.121.227.75 1 1 26664 20180411083642
+80.252.155.198 2 2 26713 20180413062807
+222.132.65.89 1 1 26664 20180428013550
+185.8.107.162 2 2 26713 20180425134949
+212.23.71.37 2 2 53328 20180412121813
+37.1.201.71 1 1 26664 20180427080334
+192.36.27.6 1 1 26664 20180411054941
+178.207.251.251 1 1 26664 20180427122528
+5.101.191.136 1 1 26664 20180426214348
+185.152.65.180 2 2 26713 20180416120751
+176.31.9.175 4 4 53426 20180415100924
+128.74.65.182 2 2 53328 20180414143636
+13.59.6.206 3 3 79992 20180415092708
+37.143.15.220 5 5 133320 20180428154843
+31.130.3.181 2 2 26713 20180416095655
+208.80.194.32 9 9 239976 20180430134828
+185.244.214.238 2 2 26713 20180413032146
+66.102.9.43 1 1 26664 20180412060238
+87.228.52.83 1 1 26664 20180428115836
+185.85.160.157 1 1 26664 20180412042344
+185.230.127.115 1 1 26664 20180427192746
+184.174.56.241 1 1 26664 20180422040947
+2.95.222.28 1 1 26664 20180423050415
+208.80.194.27 2 2 53328 20180415145444
+31.171.154.228 4 4 53426 20180423080512
+138.68.180.18 1 1 26664 20180411063419
+95.71.5.114 2 2 26713 20180425150019
+159.253.18.159 1 1 26664 20180429065613
+178.159.37.12 1 1 26664 20180421164926
+195.62.62.249 2 2 26713 20180411090414
+62.109.18.83 2 2 53328 20180425191748
+54.37.149.75 2 2 53328 20180416202322
+92.240.138.4 2 2 26713 20180424193556
+159.65.43.205 2 2 26713 20180413121755
+66.249.93.211 2 2 53328 20180423081106
+163.172.171.163 1 1 49 20180416002048
+185.59.140.98 1 1 26664 20180426130549
+178.215.93.62 2 2 53328 20180424145541
+89.178.231.211 1 1 26664 20180417023537
+185.105.118.33 2 2 26713 20180411103133
+62.122.92.7 2 2 26713 20180424072532
+95.79.208.165 3 3 53377 20180423153424
+88.85.95.125 2 2 53328 20180424014350
+185.105.88.58 2 2 26713 20180422071337
+46.42.60.218 2 2 53328 20180414125959
+89.248.115.12 2 2 53328 20180413092211
+77.37.169.25 1 1 26664 20180412053143
+178.122.223.116 3 3 53377 20180426052948
+95.130.10.69 1 1 26664 20180424155615
+176.10.99.200 2 2 26713 20180413184251
+45.76.45.60 1 1 26664 20180415003110
+93.188.39.163 1 1 26664 20180427001703
+94.46.223.34 1 1 26664 20180421193208
+109.68.191.2 2 2 98 20180426144526
+213.32.93.218 3 3 53377 20180430072958
+145.239.32.178 3 3 53377 20180424150152
+188.166.22.77 10 10 266640 20180427145825
+176.15.19.105 1 1 26664 20180417034109
+94.41.216.130 2 2 26713 20180414222059
+188.170.196.24 1 1 26664 20180429233907
+87.117.55.8 2 2 26713 20180422155840
+46.72.25.49 1 1 26664 20180411223909
+216.74.107.193 1 1 26664 20180413055959
+80.77.163.133 3 3 53377 20180421210454
+131.153.40.188 6 6 80139 20180412095039
+178.207.30.63 1 1 26664 20180413163945
+178.127.4.128 1 1 26664 20180412145538
+91.105.196.218 3 3 53377 20180412060920
+188.162.195.64 2 2 53328 20180424160930
+5.133.11.87 1 1 26664 20180424115631
+91.200.12.233 6 6 106754 20180413071158
+51.15.49.119 2 2 53328 20180424080512
+91.144.156.239 2 2 53328 20180427110143
+176.51.253.195 1 1 26664 20180415154606
+62.210.247.93 6 6 159984 20180427091828
+46.17.63.192 1 1 26664 20180425003225
+161.202.39.214 2 2 26713 20180415223304
+37.145.230.150 1 1 26664 20180425031512
+52.87.86.158 1 1 26664 20180412093245
+54.183.165.74 2 2 53328 20180426075625
+91.230.25.106 1 1 26664 20180414071029
+37.151.150.203 1 1 26664 20180425034750
+192.160.102.170 2 2 26713 20180416140637
+37.115.205.56 1 1 26664 20180423153906
+94.230.120.114 2 2 53328 20180425144123
+194.186.207.116 6 6 159984 20180427140701
+145.255.9.207 2 2 53328 20180413192914
+51.15.52.58 1 1 26664 20180422053544
+178.95.115.127 2 2 26713 20180415144539
+5.1.14.233 2 2 26713 20180425164917
+178.137.163.159 3 3 53377 20180430215603
+89.45.10.149 1 1 26664 20180414213034
+62.249.146.190 2 2 26713 20180423135259
+89.169.199.231 1 1 26664 20180413121945
+51.15.92.10 1 1 26664 20180425213717
+46.72.23.124 2 2 26713 20180421142658
+5.45.75.6 1 1 26664 20180425013120
+37.144.49.1 1 1 26664 20180429131513
+183.88.213.140 1 1 26664 20180411103245
+178.159.37.129 6 6 106754 20180427205429
+176.110.129.2 1 1 26664 20180424081712
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 21
+20180404 1 1 26664 1
+20180406 1 1 26664 1
+20180407 1 1 26664 1
+20180409 1 1 26664 1
+20180411 51 51 907409 30
+20180412 55 55 1040680 31
+20180413 82 82 1627533 40
+20180414 31 31 613664 20
+20180415 34 34 613811 21
+20180416 32 32 533868 22
+20180417 11 11 213459 8
+20180421 18 18 373492 12
+20180422 22 22 400303 15
+20180423 38 38 747082 25
+20180424 31 31 613664 22
+20180425 58 58 1200517 35
+20180426 38 38 693852 23
+20180427 35 35 800165 25
+20180428 34 34 613811 20
+20180429 18 18 426722 14
+20180430 25 25 533525 16
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+15mn-30mn 1
+1h+ 2
+0s-30s 370
+30s-2mn 4
+2mn-5mn 4
+5mn-15mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 2
+/ 452 12052128 365 254
+/contact.php 165 8085 18 129
+END_SIDER

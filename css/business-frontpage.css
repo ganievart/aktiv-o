@@ -1,0 +1,407 @@
+/*!
+ * Start Bootstrap - Business Frontpage HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 20px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+      
+}
+
+.container > h2 {
+    color: #34495E;
+}
+
+table,
+thead,
+tr,
+tbody,
+th,
+td {
+    margin: 0 auto;
+    text-align: center;
+     width: auto !important;
+    }
+
+.table td {
+   text-align: center;   
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.business-header {
+    height: 200px;
+    background: #dfeaee url('/img/bgmain.gif') repeat scroll 50% center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    margin-bottom: 0px;
+    column-break-inside: avoid;
+}
+.business-header * {
+    
+    color: #336699;
+    font-weight:900;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 0px;
+    font-size: 40px;
+}
+.business-header p {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: #CC3333;   
+  
+  
+    
+}
+.col-sm-4 {
+    display: inline-block;
+}
+
+/* Customize the text color and shadow color and to optimize text legibility. */
+
+.tagline {
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+/* ����� ��� �������� ��������� */
+.contact-form{
+    max-width:400px;
+    margin:0px auto;
+
+
+}
+.contact-form h1{
+    display: block;
+    text-align: l;
+    padding: 0;
+    margin: 0px 0px 20px 0px;
+    color: #5C5C5C;
+    font-size:x-large;
+}
+.contact-form ul{
+    list-style:none;
+    padding:0;
+    margin:0;  
+}
+.contact-form li{
+    display: block;
+    padding: 9px;
+    border:1px solid #DDDDDD;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+.contact-form li:last-child{
+    border:none;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.contact-form li > label{
+    display: block;
+    float: left;
+    margin-top: -19px;
+
+    background: #FFFFFF;
+    height: 20px;
+    padding: 2px 5px 2px 5px;
+    color: #B9B9B9;
+    font-size: 14px;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="number"],
+.contact-form input[type="phone"],
+
+.contact-form textarea,
+.contact-form select
+{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    display: block;
+    outline: none;
+    border: none;
+    height: 25px;
+    line-height: 25px;
+    font-size: 16px;
+    padding: 0;
+}
+
+.contact-form li > span{
+    background: #F3F3F3;
+    display: block;
+    padding: 3px;
+    margin: 0 -9px -9px -9px;
+    text-align: center;
+    color: #C0C0C0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+.contact-form textarea{
+    width: 100%;
+    height: 100px;
+}
+
+
+/*������ ����� � header*/
+.home-icon {
+    position: relative;
+    margin-top: 15px; 
+    color: white;   
+
+}
+
+
+.partners {
+    position: relative;
+}
+
+.partners > h2 {
+    margin-bottom: 30px;
+    text-align: center;	
+}
+
+.reviews > h2 {
+    text-align: center;
+}
+
+.cust-nav {
+    
+    color: red;
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight:700;
+	margin-left: -10px;
+    
+
+}
+.navbar-default .navbar-nav > li > a {
+    color: #415b76;
+}
+
+.cust-logo {
+    color: #336699;
+    position: relative; 
+//    left: 30px;    
+    text-transform: uppercase;
+    font-weight:600;
+    font-size: 35px;
+    text-decoration: none;
+}
+.cust-logo > a:focus, a:hover, a::after, a::before {
+    text-decoration: none;   
+    color: #336699;
+}
+
+.phone-number {
+    float: right;
+    top: 25px;
+  /*  right: 100px; */
+    color: #6281A3;
+    position: relative;   
+    text-transform: uppercase;
+    font-weight:600;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.cust-footer {
+    background: #415B76;
+    width: 100%;
+    font-size: 20px;
+     font-weight:600;
+}
+
+
+#Container_Carousel{
+    
+    margin:0;
+    padding:0;
+    width:100%;
+    
+}
+.item img{
+     width:100%;    
+}
+#Container_Carousel{
+    
+    margin:0;
+    padding:0;
+    width:100%;
+    
+}
+.carousel img {
+    min-width: 100%;
+}
+.carousel {
+    height: 250px;
+    padding-bottom: 00px;
+    
+}
+
+.footer-info {
+  float: inside;
+  position: relative;
+  top: 20px;
+}
+
+.white, .white a {
+  color: #fff;
+}
+
+.count-info {
+    background: #fff url("/img/main12.png") no-repeat scroll center bottom;    
+}
+
+.cenetring {
+    margin: 0 auto;
+    display: block;
+    width: 30%;
+    padding-bottom: 30px;
+}
+
+.img-center > a:focus, .img-center > a:hover {
+    border: solid;
+}
+
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  position: absolute;
+  overflow: hidden;
+  width: 80%;
+  height: 80%;
+  left: 10%;
+  top: 10%;
+  border-bottom: 1px solid #FFF;
+  border-top: 1px solid #FFF;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0,1);
+  -ms-transform: scale(0,1);
+  transform: scale(0,1);
+}
+
+.hovereffect:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.hovereffect:hover img {
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');
+  filter: brightness(0.6);
+  -webkit-filter: brightness(0.6);
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  background-color: transparent;
+  color: #FFF;
+  padding: 1em 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,-100%,0);
+  transform: translate3d(0,-100%,0);
+}
+
+.hovereffect a, hovereffect p {
+  color: #FFF;
+  padding: 1em 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,100%,0);
+  transform: translate3d(0,100%,0);
+}
+
+.hovereffect:hover a, .hovereffect:hover p, .hovereffect:hover h2 {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.greycolor {
+    background-color: #F9F9F9
+}
+
+
+h2 {
+    color: #34495E;
+    font-weight: 600;
+}
+
+.rightnowlabel {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: #CC3333;   
+}
+.carousel-content {
+    color:black;
+    display:flex;
+    align-items:center;
+}
+
+.controls {
+	margin: 0 auto;
+	width: 50%;
+}
+
+.form-control{
+	
+	margin-bottom: 1.5em;
+	
+}
+.btn-send {
+	
+	margin-bottom: 2em;
+	float: right;
+	
+}

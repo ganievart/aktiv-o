@@ -1,0 +1,17 @@
+DirectoryIndex index.html index.php index.htm index.shtml
+RewriteEngine on
+RewriteBase /
+
+RewriteCond %{HTTP_HOST} ^zaliv\.aktiv-o\.ru$
+RewriteCond %{REQUEST_URI} !/zaliv/
+RewriteRule ^(.*)$ /zaliv/$1
+
+RewriteCond %{HTTP_HOST} ^zatoplenie\.aktiv-o\.ru$
+RewriteCond %{REQUEST_URI} !/zaliv/
+RewriteRule ^(.*)$ /zaliv/$1
+
+RewriteCond %{HTTP_HOST} ^strojehkspertiza\.aktiv-o\.ru$
+RewriteCond %{REQUEST_URI} !/strojehkspertiza/
+RewriteRule ^(.*)$ /strojehkspertiza/$1 [L]
+AddDefaultCharset utf-8
+AddType 'text/html; charset=utf-8' .html .htm .shtml

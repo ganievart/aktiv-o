@@ -1,0 +1,109 @@
+<manifest alg="2" build="2015.2.1.352" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="strojehkspertiza.aktiv-o.ru" resolutions="1x" timestamp="1492422008794">
+  <folder name="css">
+    <file name="site_global.css" crc="3916556066"/>
+    <file name="master_______-a.css" crc="3758994705" ref="done:index"/>
+    <file name="done.css" crc="107564913" ref="done"/>
+    <file name="iefonts_done.css" crc="3905330361" ref="done"/>
+    <file name="index.css" crc="4083143500" ref="index"/>
+    <file name="iefonts_index.css" crc="504159487" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="169078940" ref="phone>index:phone>done:phone>form:index:done"/>
+    <file name="museutils.js" crc="3851988764" ref="phone>index:phone>done:phone>form:index:done"/>
+    <file name="whatinput.js" crc="86476730" ref="phone>index:phone>done:phone>form:index:done"/>
+    <file name="museconfig.js" crc="4242129463" ref="phone>index:phone>done:phone>form:index:done"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="271560940" ref="phone>index:phone>done:phone>form:index:done"/>
+    <file name="jquery.watch.js" crc="3842844514" ref="phone>index:phone>done:phone>form:index:done"/>
+    <file name="pie.js" crc="3831537696" ref="phone>index:phone>done:phone>form:index:done"/>
+    <file name="webpro.js" crc="4067903014" ref="phone>index:phone>form:index"/>
+    <file name="form_check.php" crc="121412709" ref="phone>index"/>
+    <file name="form_throttle.php" crc="4268640971" ref="phone>index"/>
+    <file name="form_process.php" crc="444429785" ref="phone>index"/>
+    <file name="form-u4565.php" crc="512489951" ref="phone>index"/>
+    <file name="require.js" crc="4108833657" ref="phone>index:phone>done:phone>form:index:done"/>
+    <file name="form-u4354.php" crc="3979279909" ref="phone>form"/>
+    <file name="form-u419.php" crc="3991231105" ref="index"/>
+    <file name="form-u3192.php" crc="455968383" ref="index"/>
+    <file name="musewpslideshow.js" crc="4265225696" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="4075157096" ref="index"/>
+    <file name="touchswipe.js" crc="474750357" ref="index"/>
+    <file name="form-u3255.php" crc="363233009" ref="index"/>
+    <file name="form-u3318.php" crc="302358095" ref="index"/>
+    <file name="form-u1084.php" crc="4198523911" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="строительно-техническая-экспертиза-favicon.ico" crc="93628233" ref="phone>index"/>
+    <file name="phone 1.jpg" crc="4234347083" ref="phone>index:phone>done:phone>form"/>
+    <file name="checksvg-u2221-u4481-fr.png" crc="37900980" ref="phone>index"/>
+    <file name="alarm-clock-u5294-fr.png" crc="10134130" ref="phone>index"/>
+    <file name="credit-cards-u5292-fr.png" crc="4134127785" ref="phone>index"/>
+    <file name="briefcase-u5291-fr.png" crc="3809705821" ref="phone>index"/>
+    <file name="edit-u5295-fr.png" crc="459896444" ref="phone>index"/>
+    <file name="phone 2-u3658-fr.png" crc="131392737" ref="phone>index"/>
+    <file name="rsz_sber-u3645-fr.jpg" crc="175732345" ref="phone>index"/>
+    <file name="rsz_avtogradbank-u3646-fr.jpg" crc="4193028022" ref="phone>index"/>
+    <file name="rsz_akbars-u3647-fr.jpg" crc="108083204" ref="phone>index"/>
+    <file name="rsz_aijk-u3648-fr.jpg" crc="235764479" ref="phone>index"/>
+    <file name="rsz_asko.gif" crc="127979433" ref="phone>index:index"/>
+    <file name="rsz_ingo-u3653-fr.png" crc="4234722983" ref="phone>index"/>
+    <file name="u4585-17.png" crc="178216078" ref="phone>index"/>
+    <file name="u4585-17-r.png" crc="4201082401" ref="phone>index"/>
+    <file name="u4585-17-m.png" crc="4052341451" ref="phone>index"/>
+    <file name="u4585-17-fs.png" crc="4007640120" ref="phone>index"/>
+    <file name="32px - 142.png" crc="4108519467" ref="phone>index:index"/>
+    <file name="crossword.jpg" crc="3940268764" ref="phone>index:phone>done:phone>form:index:done"/>
+    <file name="u4363-17.png" crc="4280525204" ref="phone>form"/>
+    <file name="u4363-17-r.png" crc="377450052" ref="phone>form"/>
+    <file name="u4363-17-m.png" crc="487826735" ref="phone>form"/>
+    <file name="u4363-17-fs.png" crc="459244491" ref="phone>form"/>
+    <file name="32px - 142-u4421.png" crc="4277338320" ref="phone>form"/>
+    <file name="imgonline-com-ua-compressed-2ttubz7ugxy.jpg" crc="119385061" ref="index:done"/>
+    <file name="u433-17.png" crc="4280525204" ref="index"/>
+    <file name="u433-17-r.png" crc="377450052" ref="index"/>
+    <file name="u433-17-m.png" crc="487826735" ref="index"/>
+    <file name="u433-17-fs.png" crc="459244491" ref="index"/>
+    <file name="u3203-17.png" crc="4280525204" ref="index"/>
+    <file name="u3203-17-r.png" crc="377450052" ref="index"/>
+    <file name="u3203-17-m.png" crc="487826735" ref="index"/>
+    <file name="u3203-17-fs.png" crc="459244491" ref="index"/>
+    <file name="checksvg-u2221.png" crc="522113530" ref="index"/>
+    <file name="alarm-clock-u5169-fr.png" crc="87448229" ref="index"/>
+    <file name="credit-cards-u5167-fr.png" crc="3815883573" ref="index"/>
+    <file name="briefcase-u5165-fr.png" crc="280600811" ref="index"/>
+    <file name="edit-u5170-fr.png" crc="3944101345" ref="index"/>
+    <file name="u3266-17.png" crc="4280525204" ref="index"/>
+    <file name="u3266-17-r.png" crc="377450052" ref="index"/>
+    <file name="u3266-17-m.png" crc="487826735" ref="index"/>
+    <file name="u3266-17-fs.png" crc="459244491" ref="index"/>
+    <file name="imgonline-com-ua-compressed-brvae8vhh5r-u863-fr.png" crc="3909514510" ref="index"/>
+    <file name="u3329-17.png" crc="4280525204" ref="index"/>
+    <file name="u3329-17-r.png" crc="377450052" ref="index"/>
+    <file name="u3329-17-m.png" crc="487826735" ref="index"/>
+    <file name="u3329-17-fs.png" crc="459244491" ref="index"/>
+    <file name="rsz_sber.jpg" crc="4110287524" ref="index"/>
+    <file name="rsz_avtogradbank.jpg" crc="170104030" ref="index"/>
+    <file name="rsz_akbars.jpg" crc="4153758288" ref="index"/>
+    <file name="rsz_aijk.jpg" crc="3912726353" ref="index"/>
+    <file name="rsz_ingo.png" crc="123858528" ref="index"/>
+    <file name="u1094-17.png" crc="6064427" ref="index"/>
+    <file name="u1094-17-r.png" crc="25423229" ref="index"/>
+    <file name="u1094-17-m.png" crc="4230286594" ref="index"/>
+    <file name="u1094-17-fs.png" crc="3846954044" ref="index"/>
+  </folder>
+  <folder name="phone">
+    <folder name="css">
+      <file name="master_______-a.css" crc="439018213" ref="phone>done:phone>form:phone>index"/>
+      <file name="done.css" crc="63552727" ref="phone>done"/>
+      <file name="iefonts_done.css" crc="528497917" ref="phone>done"/>
+      <file name="form.css" crc="463125283" ref="phone>form"/>
+      <file name="iefonts_form.css" crc="3891884404" ref="phone>form"/>
+      <file name="index.css" crc="4204887528" ref="phone>index"/>
+      <file name="iefonts_index.css" crc="535150794" ref="phone>index"/>
+    </folder>
+    <file name="index.html" crc="295079893" seo="true" mt="1492421742674" redirect="true"/>
+    <file name="done.html" crc="3811469273" seo="true" mt="1492421609597" redirect="true"/>
+    <file name="form.html" crc="4114632707" seo="true" mt="1492421609597" redirect="true"/>
+  </folder>
+  <file name="index.html" crc="3877960866" seo="true" mt="1492421215640" redirect="true"/>
+  <file name="done.html" crc="3984062197" seo="true" mt="1492420921153" redirect="true"/>
+</manifest>

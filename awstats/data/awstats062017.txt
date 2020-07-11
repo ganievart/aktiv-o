@@ -1,0 +1,979 @@
+AWSTATS DATA FILE 7.4 (build 20150714)
+# If you remove this file, all statistics for date 201706 will be lost/reset.
+# Last config file used to build this data file was ./awstats.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 1971                
+POS_TIME 2661                
+POS_VISITOR 3670                
+POS_DAY 10011               
+POS_DOMAIN 10841               
+POS_LOGIN 11329               
+POS_ROBOT 11484               
+POS_WORMS 12395               
+POS_EMAILSENDER 12526               
+POS_EMAILRECEIVER 12669               
+POS_SESSION 12745               
+POS_SIDER 12932               
+POS_FILETYPES 13166               
+POS_DOWNLOADS 13290               
+POS_OS 13338               
+POS_BROWSER 13660               
+POS_SCREENSIZE 15497               
+POS_UNKNOWNREFERER 15571               
+POS_UNKNOWNREFERERBROWSER 15851               
+POS_ORIGIN 16134               
+POS_SEREFERRALS 16274               
+POS_PAGEREFS 16454               
+POS_SEARCHWORDS 21247               
+POS_KEYWORDS 22821               
+POS_MISC 2325                
+POS_ERRORS 24012               
+POS_CLUSTER 11185               
+POS_SIDER_404 24114               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170701005748 12559 2655939 12346097254281
+FirstTime 20170601024023
+LastTime 20170630223800
+LastUpdate 20171116062930 12559 0 12558 0 0
+TotalVisits 262                 
+TotalUnique 158                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 158                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+AddToFavourites 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+RealPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+PDFSupport 0 0 0
+JavascriptDisabled 0 0 0
+TotalMisc 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 11 11 266689 84 102 471470
+1 4 4 106656 183 199 624708
+2 19 19 506616 146 163 695795
+3 14 14 373296 158 182 647095
+4 9 9 213361 60 75 571066
+5 21 21 559944 129 150 323018
+6 7 7 186648 124 145 797672
+7 15 15 373345 119 140 717646
+8 20 20 533280 344 368 554063
+9 14 14 346681 55 71 596851
+10 11 11 293304 60 96 706631
+11 13 13 293402 102 123 448899
+12 13 13 293402 90 115 843683
+13 13 13 320017 128 157 905725
+14 21 21 533329 360 392 770372
+15 25 25 586608 104 141 874773
+16 19 19 426771 69 96 628542
+17 8 8 186697 67 85 1023050
+18 12 12 293353 155 188 752932
+19 21 21 559944 100 126 608436
+20 14 14 320066 102 158 535810
+21 24 24 639936 65 94 548189
+22 18 18 453337 63 84 572554
+23 11 11 266689 73 96 761097
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 158
+91.236.74.165 32 32 853248 20170616084909
+208.80.194.32 24 24 639936 20170630160149
+208.80.194.30 15 15 399960 20170629213336
+37.115.119.116 8 8 106852 20170625002404
+46.32.122.122 8 8 213312 20170608075857
+5.188.63.58 7 7 343 20170615145830
+52.36.125.174 7 7 186648 20170608143151
+208.80.192.33 7 7 186648 20170630212544
+79.137.33.204 6 6 159984 20170617184016
+185.19.20.145 6 6 159984 20170602211212
+95.78.24.87 1 1 26664 20170606154244
+176.52.33.254 2 2 53328 20170622063032
+176.194.55.193 1 1 26664 20170602125330
+185.19.20.41 1 1 26664 20170618222038
+5.165.250.196 1 1 26664 20170624062929
+5.228.35.80 1 1 26664 20170602095915
+37.202.100.238 1 1 26664 20170616032516
+94.23.83.80 2 2 53328 20170624042400
+5.3.206.31 1 1 26664 20170610101528
+91.79.0.101 2 2 26713 20170621205713
+198.211.105.233 1 1 26664 20170621024505
+128.69.232.37 1 1 26664 20170601112047
+89.163.152.135 1 1 26664 20170607213131
+46.175.72.64 1 1 26664 20170613031120
+144.76.64.79 1 1 26664 20170630093014
+5.166.134.180 1 1 26664 20170622230151
+79.137.223.57 2 2 53328 20170621204756
+85.140.77.2 1 1 26664 20170616083106
+208.80.194.120 3 3 79992 20170626182118
+109.188.89.211 1 1 26664 20170616081452
+95.24.24.228 1 1 26664 20170608033014
+95.24.132.3 1 1 26664 20170602064913
+95.105.101.184 1 1 26664 20170604085542
+207.182.140.210 4 4 106656 20170617214555
+77.35.39.77 2 2 53328 20170612190806
+64.15.113.137 1 1 26664 20170627210354
+2620:101:4035:324:150:70:173:5 1 1 26664 20170614030659
+95.78.40.7 1 1 26664 20170626145650
+46.32.122.224 1 1 26664 20170608091430
+52.87.86.158 1 1 26664 20170621143715
+94.180.248.34 3 3 79992 20170615105329
+167.114.209.38 1 1 26664 20170607234401
+91.210.147.130 1 1 26664 20170613120124
+217.69.143.217 2 2 53328 20170622193954
+37.193.107.111 1 1 26664 20170620200521
+146.185.144.64 1 1 26664 20170619020629
+109.62.157.111 2 2 26713 20170624230135
+142.54.164.60 2 2 53328 20170626004837
+5.18.201.215 3 3 79992 20170619062412
+176.193.165.99 1 1 26664 20170618143046
+176.210.254.223 1 1 26664 20170612212932
+208.80.194.122 1 1 26664 20170620090007
+208.80.194.126 3 3 79992 20170624135824
+176.8.241.146 5 5 80090 20170608034738
+37.143.15.220 2 2 53328 20170626231331
+216.239.90.19 1 1 26664 20170626142558
+195.2.252.130 1 1 26664 20170613125609
+89.250.154.0 1 1 26664 20170620192505
+2620:101:4035:324:150:70:173:14 1 1 26664 20170618121827
+208.80.194.123 2 2 53328 20170620155541
+185.51.247.28 2 2 53328 20170602132520
+208.80.194.124 3 3 79992 20170621165623
+95.221.206.61 1 1 26664 20170609164456
+208.80.194.27 4 4 106656 20170625143356
+109.248.242.54 1 1 26664 20170624100230
+2620:101:4035:324:150:70:173:6 1 1 26664 20170614030655
+176.196.67.143 2 2 53328 20170615072936
+46.188.34.104 1 1 26664 20170629194856
+95.104.229.134 1 1 26664 20170613205811
+178.206.235.124 1 1 26664 20170627090719
+144.76.119.75 1 1 26664 20170618034114
+144.217.71.104 1 1 26664 20170604184911
+109.95.105.103 1 1 26664 20170609125759
+34.223.220.232 3 3 79992 20170628135209
+35.192.33.244 1 1 26664 20170616181749
+23.20.13.11 1 1 26664 20170604073826
+195.200.245.88 2 2 53328 20170627211651
+2620:101:4036:321:150:70:188:165 1 1 26664 20170614030614
+188.186.58.41 2 2 26713 20170630121427
+31.31.203.77 1 1 26664 20170623102335
+69.30.255.107 2 2 53328 20170627131101
+91.234.96.206 1 1 26664 20170628132305
+213.202.254.136 1 1 26664 20170616205256
+91.189.112.7 4 4 106656 20170629142339
+192.160.102.166 1 1 26664 20170626023105
+91.200.29.122 1 1 26664 20170628164407
+159.253.18.159 1 1 26664 20170620190608
+95.78.125.210 1 1 26664 20170605111244
+109.63.136.132 1 1 26664 20170625194557
+2.94.121.134 1 1 26664 20170607211043
+37.204.157.49 1 1 26664 20170610192002
+208.80.194.125 4 4 106656 20170616163834
+88.99.141.3 1 1 26664 20170616195938
+80.64.170.74 1 1 26664 20170609100150
+107.22.67.39 1 1 26664 20170630110017
+109.63.155.200 1 1 26664 20170628085756
+91.79.8.53 2 2 53328 20170615085440
+34.204.98.161 1 1 26664 20170607075255
+46.48.13.161 6 6 159984 20170613035125
+95.170.140.116 4 4 106656 20170623110436
+178.73.210.251 3 3 79992 20170605195115
+188.213.134.148 3 3 79992 20170609081229
+46.242.91.219 1 1 26664 20170627190431
+94.23.171.176 1 1 26664 20170615054314
+5.165.240.52 1 1 26664 20170603221718
+2.93.226.56 1 1 26664 20170612053012
+77.37.180.168 1 1 26664 20170617213058
+46.4.94.226 1 1 26664 20170628213622
+5.165.244.149 1 1 26664 20170604015054
+87.117.189.235 1 1 26664 20170615120836
+185.154.15.119 1 1 26664 20170616042526
+176.193.107.10 2 2 53328 20170604113144
+46.0.68.57 1 1 26664 20170625212847
+46.146.8.86 2 2 53328 20170607220630
+35.188.49.18 1 1 26664 20170614191454
+188.123.101.16 3 3 26664 20170626152545
+91.212.64.1 1 1 26664 20170628170730
+194.135.83.53 2 2 53328 20170628170735
+93.115.95.204 1 1 26664 20170630002823
+85.26.164.101 1 1 26664 20170619101824
+188.40.155.154 1 1 26664 20170612175601
+178.206.229.52 1 1 26664 20170614085318
+109.63.200.38 1 1 26664 20170628182159
+134.119.213.82 2 2 53328 20170619162709
+193.124.113.147 2 2 53328 20170615231544
+178.207.24.65 1 1 26664 20170619095548
+77.243.183.100 3 3 53377 20170621042547
+51.15.40.33 2 2 53328 20170630020240
+148.251.182.122 3 3 79992 20170621142007
+5.228.91.132 1 1 26664 20170620153114
+83.151.14.215 2 2 53328 20170628153031
+54.179.150.148 1 1 26664 20170605225210
+80.67.172.162 5 5 133320 20170622050253
+104.154.235.130 1 1 26664 20170615193919
+178.70.51.126 2 2 53328 20170614030454
+5.3.127.73 2 2 26713 20170614113354
+163.172.4.153 4 4 106656 20170619093150
+83.142.160.33 3 3 79992 20170617163253
+35.192.4.3 1 1 26664 20170616122105
+37.204.50.137 1 1 26664 20170623070429
+176.59.116.240 3 3 53328 20170623154155
+178.248.85.216 2 2 53328 20170609195116
+174.138.40.78 1 1 26664 20170621215544
+5.164.132.233 1 1 26664 20170630223800
+91.210.147.124 1 1 26664 20170610015309
+185.156.172.132 3 3 53377 20170604162247
+95.213.143.160 1 1 26664 20170624212053
+174.138.51.164 1 1 26664 20170608235825
+94.45.81.87 1 1 26664 20170602083340
+208.80.194.121 3 3 79992 20170628041829
+199.19.104.163 2 2 53328 20170625220246
+2a02:6b8:b010:48::6b55 1 1 26664 20170628124811
+5.165.241.88 1 1 26664 20170629034627
+195.191.250.33 1 1 26664 20170611082431
+213.87.96.230 1 1 26664 20170628121301
+35.185.239.191 1 1 26664 20170611220410
+95.79.34.186 1 1 26664 20170602101747
+148.251.203.11 2 2 53328 20170612141035
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20170601 5 5 133320 5
+20170602 14 14 373296 11
+20170603 7 7 186648 6
+20170604 17 17 373443 13
+20170605 9 9 239976 6
+20170606 2 2 53328 2
+20170607 11 11 293304 9
+20170608 24 24 639936 12
+20170609 13 13 346632 12
+20170610 5 5 133320 5
+20170611 6 6 133369 6
+20170612 8 8 213312 7
+20170613 10 10 213410 10
+20170614 15 15 320115 13
+20170615 33 33 826682 14
+20170616 27 27 719928 13
+20170617 15 15 399960 7
+20170618 5 5 133320 5
+20170619 9 9 239976 9
+20170620 9 9 239976 9
+20170621 14 14 320066 11
+20170622 16 16 400009 10
+20170623 14 14 293402 9
+20170624 7 7 160033 6
+20170625 8 8 186697 6
+20170626 13 13 293304 10
+20170627 10 10 266640 8
+20170628 15 15 399960 13
+20170629 6 6 159984 6
+20170630 10 10 240025 9
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 19
+ru 129 129 3120227
+us 104 104 2773056
+pl 32 32 853248
+ua 19 19 346926
+de 17 17 426673
+jo 10 10 266640
+fr 8 8 213312
+gb 7 7 186648
+it 6 6 159984
+ip 5 5 133320
+nl 1 1 26664
+ee 1 1 26664
+zz 2 2 53328
+ca 1 1 26664
+ro 4 4 106656
+eu 3 3 53377
+se 3 3 79992
+no 2 2 53328
+sk 3 3 26664
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 21
+yandex 442 11785488 20170630234432 0
+googlebot 29 773256 20170630194902 0
+no_user_agent 28 746592 20170630231655 0
+favicon 23 613272 20170630151116 0
+mj12bot 8 213312 20170627131849 0
+crawl 6 159984 20170628025155 0
+bot[\s_+:,\.\;\/\\-] 6 159984 20170620140511 0
+ahrefsbot 5 133320 20170627083830 0
+siteexplorer\.info 5 133320 20170628163026 0
+mail\.ru 4 106656 20170618195017 0
+[\s_+:,\.\;\/\\-]bot 1 26664 20170601110913 0
+dataprovider\.com 4 106656 20170607234400 0
+curl 1 26664 20170621034651 0
+dotbot 3 79992 20170620124741 0
+netcraft 1 26664 20170609134529 0
+python 3 79992 20170624203027 0
+^java\/[0-9] 2 53328 20170616093256 0
+surveybot 2 53328 20170620045951 0
+bingbot 1 26664 20170622105759 0
+^mozilla\/5\.0$ 1 26664 20170611040809 0
+rogerbot 1 26664 20170613212430 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+15mn-30mn 1
+1h+ 1
+2mn-5mn 4
+5mn-15mn 5
+0s-30s 251
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 4
+/ 302 7972536 251 239
+/index.php 32 853248 4 2
+/contact.php 19 931 7 17
+/index.php/forum/topic/create 4 106656 0 4
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 3
+php 51 854179 0 0
+Unknown 4 106656 0 0
+html 302 7972536 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 20
+macosx10 1 1
+winxp 82 82
+Unknown 11 11
+linux 19 19
+ios_iphone 7 7
+win8.1 10 10
+linuxsuse 1 1
+winlong 17 17
+macosx11 1 1
+macosx6 8 8
+win10 36 36
+macosx9 6 6
+linuxubuntu 6 6
+win2003 1 1
+winnt 7 7
+macosx 1 1
+win8 4 4
+macosx7 5 5
+win7 131 131
+linuxandroid 3 3
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 92
+msie6.0 23 23
+firefox9.0.1 2 2
+firefox18.0 2 2
+firefox26.0 3 3
+firefox3.6.11 8 8
+chrome9.0.597.94 1 1
+firefox25.0 2 2
+safari5.1 10 10
+chrome52.0.2743.116 8 8
+safari7.0 2 2
+firefox3.0.3 1 1
+chrome14.0.835.187 1 1
+chrome57.0.2987.133 2 2
+firefox3.5.0 3 3
+chrome38.0.2125.111 2 2
+firefox52.0 5 5
+chrome59.0.3071.86 6 6
+firefox3.6.23 1 1
+chrome10.0.648.133 2 2
+chrome56.0.2924.87 6 6
+firefox3.6.18 1 1
+chrome11.0.696.68 4 4
+chrome34.0.1847.116 1 1
+chrome53.0.2785.146 1 1
+firefox51.0 5 5
+chrome47.0.2526.111 2 2
+firefox38.0 1 1
+firefox30.0 1 1
+chrome48.0.2564.116 8 8
+firefox48.0 3 3
+chrome28.0.1468.0 1 1
+firefox7.0.1 6 6
+mozilla 1 1
+firefox34.0 2 2
+msie9.0 20 20
+chrome39.0.2171.99 8 8
+opera12.14 2 2
+firefox17.0 2 2
+firefox27.0 1 1
+chrome31.0.1650.57 11 11
+firefox3.6.7 1 1
+opera10.01 1 1
+chrome12.0.742.100 2 2
+chrome55.0.2883.95 1 1
+chrome37.0.2062.124 1 1
+firefox24.0 12 12
+firefox3.6 1 1
+chrome51.0.2704.79 1 1
+msie7.0 5 5
+chrome49.0.2623.112 4 4
+chrome37.0.2062.120 3 3
+chrome14.0.835.202 1 1
+msie8.0 15 15
+chrome10.0.648.151 2 2
+safari10.0 1 1
+chrome33.0.1750.152 4 4
+opera45.0.2552.888 2 2
+chrome58.0.3029.81 2 2
+firefox3.0 1 1
+Unknown 11 11
+firefox3.6.3 1 1
+chrome55.0.2883.87 5 5
+chrome36.0.1985.97 24 24
+chrome10.0.626.0 1 1
+opera43.0.2442.1144 2 2
+chrome26.0.1410.63 2 2
+chrome57.0.2987.137 6 6
+firefox33.0 1 1
+firefox53.0 12 12
+chrome41.0.2228.0 5 5
+chrome31.0.1650.16 1 1
+msie10.0 1 1
+chrome43.0.2327.5 4 4
+firefox4.0.1 2 2
+chrome5.0.375.53 1 1
+chrome48.0.2564.109 2 2
+chrome29.0.1547.66 1 1
+chrome58.0.3029.110 11 11
+firefox45.0 2 2
+firefox50.0 5 5
+firefox3.6.8 3 3
+safari10.1.1 1 1
+chrome22.0.1216.0 2 2
+firefox5.0 2 2
+opera8.01 1 1
+firefox5.0.1 2 2
+chrome41.0.2225.0 2 2
+chrome45.0.2454.94 2 2
+firefox54.0 1 1
+chrome30.0.1599.17 1 1
+firefox36.0 3 3
+opera36.0.2130.32 6 6
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+Gobyus 20170626152545
+Riddler_(http://riddler.io/about) 20170630093014
+gobyus 20170626152544
+Mozilla/5.0_Vindazo_Firefox/3.0.3 20170612175601
+Go-http-client/1.1 20170621024505
+M 20170617214555
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 6
+Needle/1.6.0_(Node.js_v6.10.3;_linux_x64) 20170623102335
+M 20170617214555
+gobyus 20170626152544
+Go-http-client/1.1 20170621024505
+Riddler_(http://riddler.io/about) 20170630093014
+Gobyus 20170626152545
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 183 183
+From1 3 3
+From2 45 45
+From3 51 51
+From4 75 75
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+yahoo 1 1
+yandex 31 31
+google 13 13
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 26
+http://maps.2gis.ru 12 12
+http://parsinfo.ru 6 6
+http://chelny.spravker.ru/otsenochnye-kompanii/ 4 4
+http://2gis.ru 3 3
+http://serviceroll.ru/1924.htm 2 2
+http://quirktools.com/screenfly/ 2 2
+http://8pw.ru/www.aktiv-o.ru 2 2
+http://hostx.ru 2 2
+http://link.2gis.ru/1.4/aHR0cDovL3d3dy5ha3Rpdi1vLnJ1Cmh0dHA6Ly9zdGF0LmFwaS4yZ2lzLnJ1CnsicHJvaiI6MjksImlzZCI6IjIwMTcwNjI2IiwiZXZlbnQiOiI3ZmIzNGFlZC0yZTI5LTQzZDEtODk3Ni1kNGE3MzJjYjliM2IiLCJ0eXBlIjoxLCJ0cyI6MTQ5ODQ3ODA3NzM2MCwiYWRkIjp7Imhhc2giOiJhOTRlOTJkNy1jNTcyLTQ1OTctYmVkYy0yYjdjODg5ZGUwMWQiLCJiYyI6MiwiYnJhbmNoIjoiNDA4MTkxNTQ0MzI5Mzc4OSIsIm9yZyI6IjQwODE5MjQwMzMyMjY0MTQiLCJwYWdlIjo0LCJwb3MiOjQ1LCJydWJyIjoiNDA4MTUwNzQyMTM4OTEzMiIsImFkcyI6MCwidHlzIjoxLCJzIjoiMyIsImFkc3QiOjE0OTg0NzI0MDAsInBsYWNlIjoxfSwidiI6MiwicHJvZCI6MTAsImtleSI6InJ1b2VkdzkyMjUiLCJsYW5nIjoicnVfUlUiLCJ1c2VyYWdlbnQiOiJNb3ppbGxhLzUuMCAoV2luZG93cyBOVCA2LjEpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS81OC4wLjMwMjkuMTEwIFNhZmFyaS81MzcuMzYiLCJpcCI6Ijk1Ljc4LjQwLjciLCJrZXlzdGF0dXMiOjEsInVzZXIiOiIyMDEwNjJiZi0xYmYyLTRmNTUtOWM5My00ZWUwNmI1ZGVlOTgiLCJzaWQiOiI3MDU3N2I1MS1kYWE3LTQ0OGQtOTk4ZC03ZTE5MGE0ZDg4MGUiLCJzaHYiOiIxNzA2MjYtNDI0NCJ9 1 1
+http://link.2gis.ru/1.4/aHR0cDovL3d3dy5ha3Rpdi1vLnJ1Cmh0dHA6Ly9zdGF0LmFwaS4yZ2lzLnJ1CnsicHJvaiI6MjksImlzZCI6IjIwMTcwNjA0IiwiZXZlbnQiOiJjZGNlZjVjNC1kMmE0LTQwODgtYjg4Ny05ZTY3ZGZlMmFkYzMiLCJ0eXBlIjoxLCJ0cyI6MTQ5NjU1NTc0MTA2NCwiYWRkIjp7Imhhc2giOiI5Y2EwYzU1NC0xMmUzLTQyYjUtYmIzZS03ZjZhYTVhYmFkMGIiLCJiYyI6MiwiYnJhbmNoIjoiNDA4MTkxNTQ0MzI5Mzc4OSIsIm9yZyI6IjQwODE5MjQwMzMyMjY0MTQiLCJwYWdlIjoyLCJwb3MiOjI0LCJydWJyIjoiNDA4MTUwNzQyMTM4OTEzMiIsImFkcyI6MCwidHlzIjoxLCJzIjoiMiIsImFkc3QiOjE0OTY1NTMzMDAsInBsYWNlIjoxfSwidiI6MiwicHJvZCI6MTAsImtleSI6InJ1b2VkdzkyMjUiLCJsYW5nIjoicnVfUlUiLCJ1c2VyYWdlbnQiOiJNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvNTEuMC4yNzA0Ljc5IFNhZmFyaS81MzcuMzYgRWRnZS8xNC4xNDM5MyIsImlwIjoiOTUuMTA1LjEwMS4xODQiLCJrZXlzdGF0dXMiOjEsInVzZXIiOiIyYzI3MjgwZC05NmUwLTRhY2MtOWU5My1hYTcwN2VlYTVhMWQiLCJzaWQiOiJiNGQ4ZDA0ZS1lNGY4LTRhMmEtOWY2Yy0xYzY5YzEwZGMyNjIiLCJzaHYiOiIxNzA2MDMtMzc2NyJ9 1 1
+http://hvd-store.com 1 1
+http://link.2gis.ru/1.4/aHR0cDovL3d3dy5ha3Rpdi1vLnJ1Cmh0dHA6Ly9zdGF0LmFwaS4yZ2lzLnJ1CnsicHJvaiI6MjksImlzZCI6IjIwMTcwNjA1IiwiZXZlbnQiOiIxY2Y0N2I3Ni03M2M5LTRjNGItODRlYi0yZjEwNTcwNGRhZjIiLCJ0eXBlIjoxLCJ0cyI6MTQ5NjY1MDM2Mzg0NCwiYWRkIjp7Imhhc2giOiI4MmY5NTg5My05NTRiLTQ4ZWEtOTMwOS01OGM2NWNmYzAwYjQiLCJiYyI6MiwiYnJhbmNoIjoiNDA4MTkxNTQ0MzI5Mzc4OSIsIm9yZyI6IjQwODE5MjQwMzMyMjY0MTQiLCJwYWdlIjoyLCJwb3MiOjI0LCJydWJyIjoiNDA4MTUwNzQyMTM4OTEzMiIsImFkcyI6MCwidHlzIjoxLCJzIjoiMiIsImFkc3QiOjE0OTY2NDY5MDAsInBsYWNlIjoxfSwidiI6MiwicHJvZCI6MTAsImtleSI6InJ1dG5wdDMyNzIiLCJsYW5nIjoicnVfUlUiLCJ1c2VyYWdlbnQiOiJNb3ppbGxhLzUuMCAoV2luZG93cyBOVCA2LjEpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS81Ny4wLjI5ODcuMTM3IFlhQnJvd3Nlci8xNy40LjEuNzU4IFlvd3Nlci8yLjUgU2FmYXJpLzUzNy4zNiIsImlwIjoiOTUuNzguMTI1LjIxMCIsImtleXN0YXR1cyI6MSwidXNlciI6ImRlMjg5Y2NiLTVlOTEtNGM5YS05YTAwLWZhM2I2NjVmMGVjZCIsInNpZCI6IjY4MmZjMmZmLThhNjgtNGFmZC04N2IxLTUzNzQyYjUyNmI0ZCIsInNodiI6IjE3MDYwMy0zNzY3In0= 1 1
+http://www.habex.ru/comments/user/55363/ 1 1
+http://pizza-tycoon.com 1 1
+http://motormoney.org 1 1
+http://hundejo.com 1 1
+https://getdot.ru/read/proverit-zanyat-li-domen 1 1
+http://link.2gis.ru/01727B06/grym/20170601/nabchelny/e807d000026ae 1 1
+https://getdot.ru/domain/aktiv-o.ru 1 1
+http://www.orgpage.ru/naberezhnyie-chelnyi/ooo-aktiv-otsenka-131638.html 1 1
+http://link.2gis.ru/1.4/aHR0cDovL3d3dy5ha3Rpdi1vLnJ1Cmh0dHA6Ly9zdGF0LmFwaS4yZ2lzLnJ1CnsicHJvaiI6MjksImlzZCI6IjIwMTcwNjA5IiwiZXZlbnQiOiI2ZWYzNTlmYi1jNzEzLTQzOWYtYmViOC05YmZmNjQ5YTQ3ODQiLCJ0eXBlIjoxLCJ0cyI6MTQ5NzAwMjI3NzgwNCwiYWRkIjp7Imhhc2giOiJiMzEyYjRhNC00NDAzLTQwZDEtYmJmZC0wZmNkM2FhMDJjNTgiLCJiYyI6MiwiYnJhbmNoIjoiNDA4MTkxNTQ0MzI5Mzc4OSIsIm9yZyI6IjQwODE5MjQwMzMyMjY0MTQiLCJwYWdlIjoxLCJwb3MiOjIsInJ1YnIiOiI0MDgxNTA3NDIxMzg5MTMyIiwiYWRzIjowLCJ0eXMiOjEsInMiOiIyIiwiYWRzdCI6MTQ5NzAwMDAwMCwicGxhY2UiOjJ9LCJ2IjoyLCJwcm9kIjoxMCwia2V5IjoicnVvZWR3OTIyNSIsImxhbmciOiJydV9SVSIsInVzZXJhZ2VudCI6Ik1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDYuMTsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzU4LjAuMzAyOS4xMTAgU2FmYXJpLzUzNy4zNiIsImlwIjoiMTA5Ljk1LjEwNS4xMDMiLCJrZXlzdGF0dXMiOjEsInVzZXIiOiJkZDQ4OGVlOC04OWFmLTQ5NzUtOGEwYi03NGY4MmU0NzY0MjgiLCJzaWQiOiI3Njk5ZWUzMy0xNGZlLTQzODEtOTJhNy1jOWEyNDlkZmVkMzYiLCJzaHYiOiIxNzA2MDktMzg1OSJ9 1 1
+https://axelname.ru/diag/ 1 1
+http://link.2gis.ru/0F43B6F5/grymmobile/20170601/nabchelny/e807d000026ae 1 1
+http://minegate.ru/forum/showthread.php 1 1
+http://away.vk.com/away.php 1 1
+http://revision.ru/a/suwestmado/ 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 6
+%d0%a1%d1%82%d1%80%d0%be%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d0%b0%d1%8f+%d1%8d%d0%ba%d1%81%d0%bf%d0%b5%d1%80%d1%82%d0%b8%d0%b7%d0%b0+%d0%b8+%d1%82%d0%b5%d1%85%d0%bd%d0%b0%d0%b4%d0%b7%d0%be%d1%80+%d0%a0%d0%be%d1%81%d1%81%d0%b8%d1%8f+%d0%a0%d0%b5%d1%81%d0%bf%d1%83%d0%b1%d0%bb%d0%b8%d0%ba%d0%b0+%d0%a2%d0%b0%d1%82%d0%b0%d1%80%d1%81%d1%82%d0%b0%d0%bd+%d0%9d%d0%b0%d0%b1%d0%b5%d1%80%d0%b5%d0%b6%d0%bd%d1%8b%d0%b5+%d0%a7%d0%b5%d0%bb%d0%bd%d1%8b 1
+%d0%bd%d0%b5%d0%b7%d0%b0%d0%b2%d0%b8%d1%81%d0%b8%d0%bc%d0%b0%d1%8f+%d1%81%d1%82%d1%80%d0%be%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d0%b0%d1%8f+%d1%8d%d0%ba%d1%81%d0%bf%d0%b5%d1%80%d1%82%d0%b8%d0%b7%d0%b0+%d0%b2+%d0%bd%d0%b0%d0%b1%d0%b5%d1%80%d0%b5%d0%b6%d0%bd%d1%8b%d1%85+%d1%87%d0%b5%d0%bb%d0%bd%d0%b0%d1%85 1
+%d0%b0%d0%ba%d1%82%d0%b8%d0%b2+%d0%be%d1%86%d0%b5%d0%bd%d0%ba%d0%b0 1
+%d0%bd%d0%b5%d0%b7%d0%b0%d0%b2%d0%b8%d1%81%d0%b8%d0%bc%d0%b0%d1%8f+%d1%8d%d0%ba%d1%81%d0%bf%d0%b5%d1%80%d1%82%d0%b8%d0%b7%d0%b0+%d1%87%d0%b5%d0%bb%d0%bd%d1%8b+%d0%bd%d0%be%d0%b2%d1%8b%d0%b9+%d0%b3%d0%be%d1%80%d0%be%d0%b4 1
+%d0%b0%d0%ba%d1%82%d0%b8%d0%b2+%d0%be%d1%86%d0%b5%d0%bd%d0%ba%d0%b0+%d0%ba%d0%b0%d0%b4%d0%b0%d1%81%d1%82%d1%80%d0%be%d0%b2%d0%be%d0%b9+%d1%81%d1%82%d0%be%d0%b8%d0%bc%d0%be%d1%81%d1%82%d0%b8 1
+%d0%be%d1%86%d0%b5%d0%bd%d0%ba%d0%b0+%d0%b8%d0%bc%d1%83%d1%89%d0%b5%d1%81%d1%82%d0%b2%d0%b0+%d0%bd%d0%b0%d0%b1%d0%b5%d1%80%d0%b5%d0%b6%d0%bd%d1%8b%d0%b5+%d1%87%d0%b5%d0%bb%d0%bd%d1%8b 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 23
+%d0%be%d1%86%d0%b5%d0%bd%d0%ba%d0%b0 3
+%d1%8d%d0%ba%d1%81%d0%bf%d0%b5%d1%80%d1%82%d0%b8%d0%b7%d0%b0 3
+%d1%87%d0%b5%d0%bb%d0%bd%d1%8b 2
+%d0%b0%d0%ba%d1%82%d0%b8%d0%b2 2
+%d0%bd%d0%b5%d0%b7%d0%b0%d0%b2%d0%b8%d1%81%d0%b8%d0%bc%d0%b0%d1%8f 2
+%d0%b8%d0%bc%d1%83%d1%89%d0%b5%d1%81%d1%82%d0%b2%d0%b0 1
+%d0%ba%d0%b0%d0%b4%d0%b0%d1%81%d1%82%d1%80%d0%be%d0%b2%d0%be%d0%b9 1
+%d0%bd%d0%be%d0%b2%d1%8b%d0%b9 1
+%d0%a1%d1%82%d1%80%d0%be%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d0%b0%d1%8f 1
+%d0%bd%d0%b0%d0%b1%d0%b5%d1%80%d0%b5%d0%b6%d0%bd%d1%8b%d1%85 1
+%d0%a2%d0%b0%d1%82%d0%b0%d1%80%d1%81%d1%82%d0%b0%d0%bd 1
+%d0%b3%d0%be%d1%80%d0%be%d0%b4 1
+%d0%a0%d0%b5%d1%81%d0%bf%d1%83%d0%b1%d0%bb%d0%b8%d0%ba%d0%b0 1
+%d0%b8 1
+%d0%b2 1
+%d1%82%d0%b5%d1%85%d0%bd%d0%b0%d0%b4%d0%b7%d0%be%d1%80 1
+%d0%a7%d0%b5%d0%bb%d0%bd%d1%8b 1
+%d0%a0%d0%be%d1%81%d1%81%d0%b8%d1%8f 1
+%d1%81%d1%82%d0%be%d0%b8%d0%bc%d0%be%d1%81%d1%82%d0%b8 1
+%d1%81%d1%82%d1%80%d0%be%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d0%b0%d1%8f 1
+%d1%87%d0%b5%d0%bb%d0%bd%d0%b0%d1%85 1
+%d0%bd%d0%b0%d0%b1%d0%b5%d1%80%d0%b5%d0%b6%d0%bd%d1%8b%d0%b5 1
+%d0%9d%d0%b0%d0%b1%d0%b5%d1%80%d0%b5%d0%b6%d0%bd%d1%8b%d0%b5 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+404 2897 621381
+405 1 232
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 338
+/administrator 2 http://aktiv-o.ru/administrator
+/phpmyadmin/ 1 -
+/files/files.php 6 aktiv-o.ru
+/inc/FCK/fckconfig.js 1 -
+/images/upxx.php 3 -
+//cache/clean.php 1 -
+/modules/mod_simplefileuploadv1.3/elements/udd.php 3 http://aktiv-o.ru/modules/mod_simplefileuploadv1.3/elements/udd.php
+/images/p.php 6 -
+/lou-bna.php 3 -
+/adminzone 2 http://aktiv-o.ru/adminzone
+/mscms/ 2 http://aktiv-o.ru/mscms/
+/72ad20fc-3558-4cfb-ac5d-e01a4163a82a 1 -
+/sql/ 1 -
+/images/xxx.php 6 aktiv-o.ru
+/fckeditor/fckconfig.js 1 -
+/f.php 6 -
+//media/404.php 2 aktiv-o.ru
+/cms/admin/ 2 http://aktiv-o.ru/cms/admin/
+/wp-includes/upgrade/theme-compat/popup-pomo.php 3 -
+/admin/ 4 http://aktiv-o.ru/admin/
+/images/head.php 12 aktiv-o.ru
+/sites/all/libraries/elfinder/php/connector.minimal.php 3 http://aktiv-o.ru/sites/all/libraries/elfinder/php/connector.minimal.php
+/include/fck/fckconfig.js 1 -
+/wp-content/plugins/easyrotator-for-wordpress/a.php 6 aktiv-o.ru
+/Jijle3.php 3 -
+/license.php 5 -
+/media/system/js/caption.js 2 http://aktiv-o.ru/media/system/js/caption.js
+/files/conn.php 6 aktiv-o.ru
+/images/stories/gh.php 6 -
+//images/stories/0day.php 1 -
+//media/reads.php 2 aktiv-o.ru
+/pma/ 1 -
+/images/upa.php 3 -
+/zibi.php 3 -
+/Abbrevsprl.php 6 aktiv-o.ru
+/configbak.php 10 aktiv-o.ru
+/active.php 3 -
+/up.php 3 -
+/tmp.php 19 aktiv-o.ru
+/boombeachhacks.php 1026 -
+/libraries/sfn.php 2 -
+/bookmark.php 6 aktiv-o.ru
+/images/google-assist.php 6 aktiv-o.ru
+//libraries/joomla/go.php 1 -
+/tmp/upxx.php 3 -
+/goog1es.php 12 aktiv-o.ru
+//cv.php 1 -
+/images/stories/shell.php 3 -
+/functions.php 10 aktiv-o.ru
+/js/FCKEDITOR/fckconfig.js 1 -
+/cache/list.php 6 aktiv-o.ru
+/update.php 6 aktiv-o.ru
+/cache/news.php 6 aktiv-o.ru
+/admin/login.php 2 http://aktiv-o.ru/admin/login.php
+//libraries/joomla/web.php 1 -
+/RoseLeif.php 6 aktiv-o.ru
+/libraries/joomla/juser.php 3 -
+/images/sym.php 3 -
+/include/FCKeditor/fckconfig.js 1 -
+/E.php 6 -
+/site/tmp/cTivrC.php 6 aktiv-o.ru
+/tmp/sfx.php 3 -
+/include/fckeditor/fckconfig.js 1 -
+//images/stories/a.php 1 -
+/authenticating.php 6 aktiv-o.ru
+/fck/fckconfig.js 1 -
+/media/1ndex.php 6 aktiv-o.ru
+/4ewsbD7KjCy/ 3 -
+/phpMyAdmin/ 1 -
+/netcat/ 2 http://aktiv-o.ru/netcat/
+/images/stories/u.php 6 -
+/dswat.org/wsdl.php 6 aktiv-o.ru
+/zebda.php 6 -
+/js/fckeditor/fckconfig.js 1 -
+/media/tmp.php 6 aktiv-o.ru
+/libraries/joomla/1ndex.php 6 aktiv-o.ru
+/tmp/bogel.php 3 -
+//images/w0rm.php 1 -
+/wp-content/uploads/Fbrrchive.php 6 aktiv-o.ru
+/includes/fck/fckconfig.js 1 -
+/sites/all/libraries/elfinder/files/1elL34.php 1 -
+/media/system/js/core.js 2 http://aktiv-o.ru/media/system/js/core.js
+/wp-installation.php 3 -
+/libraries/joomla/jmails.php 6 aktiv-o.ru
+/shootme.php 6 aktiv-o.ru
+/wp-content/plugins/wpfootes.php 6 aktiv-o.ru
+/oneskyssa/ 2 http://aktiv-o.ru/oneskyssa/
+/news.php 6 aktiv-o.ru
+/modules/mod_simplefileuploadv1.3/elements/Brmu3Y.php 1 -
+/google-assist.php 6 aktiv-o.ru
+/uslugi/mashinnoe-oborudovanie 1 -
+/FCK/fckconfig.js 1 -
+/auithorze.php 3 -
+/images/stories/3xp.php 4 -
+/robots.txt 486 -
+/myadmin/ 1 -
+/wp-content/plugins/revslider/temp/update_extract/Brmu3Y.php 1 -
+/media/jmails.php 3 -
+/wp-content/plugins/showbiz/temp/update_extract/NULLpOint7r__ikldh.php 1 -
+//images/stories/gh.php 1 -
+/media/css.php 3 -
+/cache/asdf.php 3 -
+/go.php 3 -
+/hh.php 3 -
+//libraries/respectMuslims.php 1 -
+/admin/index.php 1 -
+/admin/fckeditor/fckconfig.js 1 -
+/images/wp-mail.php 3 -
+/wp-admin/admin-ajax.php 5 http://aktiv-o.ru/wp-admin/admin-ajax.php
+/admin/include/FCKeditor/fckconfig.js 1 -
+/mide.php 3 -
+/b1.php 6 -
+/wp-content/plugins/revslider/temp/update_extract/QvaQGh.php 1 -
+/bin/logo_img.php 3 -
+/reasdme.php 3 -
+/images/robots.txt.php 6 aktiv-o.ru
+/administrator/index.php 75 -
+/robot.php 8 aktiv-o.ru
+/tmp/petx.php 3 -
+//xmlsrpc.php 2 aktiv-o.ru
+//images/stories/rekan.php 1 -
+/cache/defau1t.php 6 aktiv-o.ru
+/wp-content/plugins/wp-lg3.php 6 aktiv-o.ru
+/wp-content/plugins/SocketIontrol.php 6 aktiv-o.ru
+/caches.php 1 -
+/images/defau1t.php 10 aktiv-o.ru
+/wp-content/plugins/wp-footers.php 6 aktiv-o.ru
+/images/stories/ali.php 3 -
+/admin/fck/fckconfig.js 1 -
+/by.php 3 -
+/images/w0rm.php 6 -
+/media/404.php 12 aktiv-o.ru
+/images/clean.php 3 -
+/includes/u2p.php 6 aktiv-o.ru
+/contacts 3 -
+/admin/include/fckeditor/fckconfig.js 1 -
+/uslugi/zaliv-pozhar 2 -
+/tmp/setting.php 6 -
+/images/logo_img.php 3 -
+/wp-content/uploads/1elL34.php 1 -
+//E.php 1 -
+/r3x.php 6 aktiv-o.ru
+/M-J!r4ya-F4r3s.php 6 aktiv-o.ru
+/show.php 6 aktiv-o.ru
+//modules/mod_bookmark/helper.php 2 aktiv-o.ru
+/tmp/pz.php 6 -
+/images/stories/readme.php 3 -
+/include/FCK/fckconfig.js 1 -
+/includes/FCKEDITOR/fckconfig.js 1 -
+/administrator/includes/readmy.php 12 aktiv-o.ru
+//images/stories/s.php 1 -
+/wp-main.php 6 aktiv-o.ru
+/wp_logns.php 3 -
+/include/FCKEDITOR/fckconfig.js 1 -
+/error-log.php 12 aktiv-o.ru
+/images/stories/filemga.php 6 -
+/wp-content/plugins/revslider/temp/update_extract/1elL34.php 1 -
+/wp-content/plugins/wp-cache.php 9 aktiv-o.ru
+/jconfig.php 6 aktiv-o.ru
+/images/stories/alfa.php 3 -
+//error-log.php 2 aktiv-o.ru
+/js/fck/fckconfig.js 1 -
+/css.php 5 -
+/images/al277.php 6 aktiv-o.ru
+/administrator/ 2 -
+//f.php 1 -
+/al277.php 6 aktiv-o.ru
+//administrator/includes/readmy.php 2 aktiv-o.ru
+//help.php 1 -
+//xup.php 1 -
+/cache/cachee.php 10 aktiv-o.ru
+/QvaQGh.php 1 -
+/FCKeditor/fckconfig.js 1 -
+/cache/wcache7675n.PHP 6 aktiv-o.ru
+/includes/fckeditor/fckconfig.js 1 -
+/admin.php 1 -
+/infos.php 6 aktiv-o.ru
+/wp-content/themes/twentyeleven-child/footer.php 6 aktiv-o.ru
+/images/stories/black.php 3 -
+/components/com_foxcontact/ 2 -
+//cache/support.php 2 aktiv-o.ru
+/wp-content/uploads/Brmu3Y.php 1 -
+/uslugi/nedvizhimost 1 -
+/media/jmail.php 3 -
+/cache/cache_aqbmkwwx.php 6 aktiv-o.ru
+/bitrix/admin/index.php 2 http://aktiv-o.ru/bitrix/admin/index.php
+//tmp/setting.php 1 -
+/blog/robots.txt 7 -
+/wp-data.php 6 aktiv-o.ru
+/wsdl.php 5 aktiv-o.ru
+/maill.php 8 aktiv-o.ru
+/uploadify/uploadify.php 3 http://aktiv-o.ru/uploadify/uploadify.php
+//images/head.php 2 aktiv-o.ru
+/includes/FCKeditor/fckconfig.js 1 -
+/libraries/joomla/wso.php 3 -
+/js/FCKeditor/fckconfig.js 1 -
+/inc/fck/fckconfig.js 1 -
+/images/stories/0day.php 12 -
+//goog1es.php 2 aktiv-o.ru
+/info.php 3 -
+/wp-cache.php 8 aktiv-o.ru
+/email.php 6 aktiv-o.ru
+/cms/ 2 http://aktiv-o.ru/cms/
+/uslugi/biznes 2 -
+/ny.php 3 -
+//x.php 1 -
+//images/stories/u.php 1 -
+/images/stories/rekan.php 6 -
+/xup.php 6 -
+/libraries/joomla/jmail.php 6 -
+/libraries/joomla/zipy.php 3 -
+/m.php 3 -
+/xmlrpc.php 4 -
+//images/stories/xsamxadoo.php 1 -
+/admin/FCKeditor/fckconfig.js 1 -
+//images/stories/filemga.php 1 -
+/images/stories/c00d.php 8 -
+/cv.php 6 -
+/libraries/respectMuslims.php 6 -
+/media/jss.php 6 -
+/thumb.php 6 aktiv-o.ru
+//images/xxu.php 1 -
+/modules/mod_simplefileuploadv1.3/elements/1elL34.php 1 -
+/manager 2 http://aktiv-o.ru/manager
+/wp-content/1ndex.php 6 aktiv-o.ru
+/nktt.php 3 -
+/wp-content/plugins/wp-lg2.php 6 aktiv-o.ru
+/partnery 1 -
+/wp-content/plugins/Analyser.php 12 aktiv-o.ru
+/install.php 6 aktiv-o.ru
+/jm-ajax/upload_file/ 3 -
+/user/register 1 -
+/images/1ndex.php 10 aktiv-o.ru
+//media/mass.php 1 -
+/language/en-GB/en-GB.xml 1 -
+/sites/all/libraries/elfinder/files/QvaQGh.php 1 -
+/modules/mod_simplefileuploadv1.3/elements/QvaQGh.php 1 -
+/modules/mod_bookmark/helper.php 12 aktiv-o.ru
+/configurationbak.php 6 aktiv-o.ru
+/wp-content/plugins/sql_dump.php 6 aktiv-o.ru
+/joomla/robots.txt 3 -
+/log.php 6 aktiv-o.ru
+/blog/ 5 -
+/component/content/article 1 -
+/cli/40dd1d.php 6 aktiv-o.ru
+/media/reads.php 12 aktiv-o.ru
+/wp/ 4 -
+/wp-content/plugins/myshe.php 6 aktiv-o.ru
+/help.php 9 -
+/images/stories/s.php 6 -
+/includes.php 8 aktiv-o.ru
+/images/stories/0d4y.php 6 -
+//oss.php 1 -
+/05f47748-c06c-48d1-8b6d-554688a4d2d1 1 -
+/wp-content/uploads/QvaQGh.php 1 -
+/modules/modules/modules.php 6 aktiv-o.ru
+/SessionController.php 6 aktiv-o.ru
+/sql_dump.php 6 aktiv-o.ru
+/elements.php 6 aktiv-o.ru
+/wp-configuration.php 6 -
+/wp-content/plugins/SocketIasrgasfontrol.php 6 aktiv-o.ru
+/Gaza.html 3 -
+/roubt.php 6 aktiv-o.ru
+/shootmei.php 6 aktiv-o.ru
+/default_component.php 3 -
+/1elL34.php 1 -
+/u.php 3 -
+/tmp/guide.php 3 -
+/images/stories/xsamxadoo.php 6 -
+/admin/login 1 -
+/ws0.php 3 -
+//wp-configuration.php 1 -
+/xmlsrpc.php 12 aktiv-o.ru
+/images/404.php 6 aktiv-o.ru
+/administrator/webconfig.txt.php 6 aktiv-o.ru
+/inc/FCKEDITOR/fckconfig.js 1 -
+//tmp/pz.php 1 -
+/wp-login.php 6 http://aktiv-o.ru/wp-login.php
+/images/stories/webroot.php 6 -
+/setting.php 3 -
+//libraries/joomla/jmail.php 1 -
+/sites/all/libraries/elfinder/files/Brmu3Y.php 1 -
+/libraries/joomla/css.php 3 -
+/administrator/dbconfig.php 6 aktiv-o.ru
+/administrator/administrator.php 6 aktiv-o.ru
+/cache/support.php 12 aktiv-o.ru
+/favicon.png 2 -
+/wp-content/themes/margreetalgra/404.php 6 aktiv-o.ru
+/manager/ 1 -
+/configurationbak.php.suspected 6 aktiv-o.ru
+/A.php 6 aktiv-o.ru
+/webconfig.txt.php 6 aktiv-o.ru
+/wp-content/upgrade/theme-compat/popup-pomo.php 5 -
+/vam_rss2_info.php 2 http://aktiv-o.ru/vam_rss2_info.php
+/joomla/administrator/index.php 3 -
+/up14.php 3 -
+/libraries/joomla/web.php 6 -
+/admin/FCK/fckconfig.js 1 -
+/wordpress/ 4 -
+/sqlbak.php 6 aktiv-o.ru
+//wp-content/plugins/Analyser.php 2 aktiv-o.ru
+/xmlrpc-activate.php 6 aktiv-o.ru
+//zebda.php 1 -
+/cache/clean.php 6 -
+/4653c57e-4bc7-4662-bbc2-6672df6011f5 1 -
+/inc/FCKeditor/fckconfig.js 1 -
+/images/stories/a.php 6 -
+/wp-content/themes/fossy-speurhondenworst/divi-children-engine/divi_children_engine.php 6 aktiv-o.ru
+/webconfig.txt.php.suspected 6 aktiv-o.ru
+/js/FCK/fckconfig.js 1 -
+/inc/fckeditor/fckconfig.js 1 -
+/x.php 8 -
+/media/mass.php 6 -
+/images/stories/gass.php 3 -
+/Brmu3Y.php 1 -
+//kk.php 1 -
+/sitemap.xml 2 -
+/kk.php 6 -
+//images/stories/webroot.php 1 -
+/images/laj.php 6 aktiv-o.ru
+/robots.txt.php 6 aktiv-o.ru
+/content.php 6 aktiv-o.ru
+//images/p.php 1 -
+/wp-content/plugins/Fbrrchive.php 8 aktiv-o.ru
+/includes/FCK/fckconfig.js 1 -
+/wp-content/plugins/revslider/temp/update_extract/NULLpOint7r__tiynq.php 1 -
+//b1.php 1 -
+/FCKEDITOR/fckconfig.js 1 -
+//images/stories/c00d.php 1 -
+//images/stories/0d4y.php 1 -
+/logs.asp 6 aktiv-o.ru
+/libraries/joomla/go.php 6 -
+/wp-content/plugins/caches.php 6 aktiv-o.ru
+//media/jss.php 1 -
+/oss.php 6 -
+/images/xxu.php 8 -
+/admin 2 http://aktiv-o.ru/admin
+/blog/administrator/index.php 3 -
+END_SIDER_404
